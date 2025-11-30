@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { comments_data } from '../../assets/assets';
-import CommentTableItem from './CommentTableITem';
+import CommentTableItem from './CommentTableItem';
 import { useAppContext } from '../../context/AppContext';
 const Comments = () => {
 
