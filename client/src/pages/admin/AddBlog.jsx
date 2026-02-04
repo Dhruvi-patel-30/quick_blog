@@ -6,7 +6,6 @@ import { useAppContext } from '../../context/AppContext';
 import { toast } from 'react-hot-toast';
 import {parse} from 'marked';
 
-
 const AddBlog = () => {
 
   const {axios} = useAppContext();
